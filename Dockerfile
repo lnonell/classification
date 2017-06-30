@@ -37,6 +37,7 @@ RUN install2.r --error --deps TRUE \
     plyr \
     devtools \
     xml2 \
+    xgboost \
     && rm -rf /tmp/downloaded_packages/
 
 

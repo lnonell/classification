@@ -49,7 +49,7 @@ RUN install2.r --error --deps TRUE \
 
 
 ## Add biocLite to install Biobase
-RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite("genefilter")'
+RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite("genefilter"); ; biocLite("limma")'
 RUN Rscript -e 'library(devtools); install_github("romainkp/modelUtils"); install_github("romainkp/DSA")'
 
 

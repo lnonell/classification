@@ -38,6 +38,13 @@ RUN install2.r --error --deps TRUE \
     devtools \
     xml2 \
     xgboost \
+    sda \
+    class \
+    e1071 \
+    pamr \
+    randomForest \
+    rpart \
+    partDSA \
     && rm -rf /tmp/downloaded_packages/
 
 
